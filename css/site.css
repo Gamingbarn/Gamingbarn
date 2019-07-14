@@ -6,17 +6,17 @@
     font-size: 40pt;
 }
 
-p  {
+/* p  {
     font-size: 40pt;
     background-color: burlywood;
-}
+} */
 
 .lose-body-style {
     background-color:red;
 }
 
 .mad-body-style {
-    background-color:rgb(179, 132, 105)
+    background-color:rgb(179, 132, 105);
 }
 
 .win-body-style {
@@ -24,14 +24,17 @@ p  {
 }
 
 .mad-text-style {
-    font-size: 40pt; background-color: rgb(179, 132, 105)
+    font-size: 40pt; background-color: rgb(179, 132, 105);
 }
 
 .lose-text-style {
-    font-size: 40pt; background-color: red
+    font-size: 40pt; background-color: red;
 }
 
 .win-text-style {
-    font-size: 40pt; background-color: lime
+    font-size: 40pt; background-color: lime;
 }
 
+.Homepage-Link {
+     margin-left: 450px;
+}
