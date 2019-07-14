@@ -26,3 +26,12 @@ p  {
 .mad-text-style {
     font-size: 40pt; background-color: rgb(179, 132, 105)
 }
+
+.lose-text-style {
+    font-size: 40pt; background-color: red
+}
+
+.win-text-style {
+    font-size: 40pt; background-color: lime
+}
+
