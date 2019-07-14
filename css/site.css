@@ -10,3 +10,15 @@ p  {
     font-size: 40pt;
     background-color: burlywood;
 }
+
+.lose-body-style {
+    background-color:red;
+}
+
+.mad-body-style {
+    background-color:rgb(179, 132, 105)
+}
+
+.win-body-style {
+    background-color:lime;
+}
