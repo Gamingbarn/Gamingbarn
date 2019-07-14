@@ -2,8 +2,8 @@
     background-color:burlywood;
 }
 
-.mad-text-style {
-    font-size: 40pt; background-color: rgb(179, 132, 105)
+.text-style {
+    font-size: 40pt;
 }
 
 p  {
@@ -21,4 +21,8 @@ p  {
 
 .win-body-style {
     background-color:lime;
+}
+
+.mad-text-style {
+    font-size: 40pt; background-color: rgb(179, 132, 105)
 }
