@@ -1,3 +1,3 @@
 function coolthing() {
-    alert("Hello, you clicked a button.");
+    alert("Thank you, he is now a happier button!");
 }
