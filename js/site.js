@@ -5,3 +5,4 @@ function coolthing() {
 function Question() {
     alert("Are you yes boy man okay yes now, okay?");
 }
+
