@@ -40,7 +40,12 @@
 }
 
 .Header-Homepage {
-    margin-left: 400px; font-size: 50p;
+    margin-left: 0px;
+    font-size: 50p;
+    padding: 50px;
+  border: 9px solid blue;
+  background-color: lightblue;
+  color: purple
 }
 
 .button {
