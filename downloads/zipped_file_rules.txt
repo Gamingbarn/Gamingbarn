@@ -1,0 +1,2 @@
+Datapacks are downloaded without the need for unzipping.
+Datapacks that require a rescourepack will be zipped together, unzip the file.
