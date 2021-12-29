@@ -65,14 +65,6 @@ if (!document.getElementById('template_style')) {
     document.head.appendChild(link);
 }
 
-/*<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>*/
-//if (!document.getElementById('jquery_main_js')) {
-//    var script = document.createElement('script');
-//    script.id = 'jquery_main_js';
-//    script.src = '/js/jquery-1.8.3.min.js';
-//    document.head.appendChild(script);
-//}
-
 /* <script type="text/javascript" src="js/jquery-ui.min.js"></script> */
 if (!document.getElementById('jquery_ui')) {
     var script = document.createElement('script');
