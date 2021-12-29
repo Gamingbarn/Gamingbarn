@@ -1,44 +1,22 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gamingbarn / Datapacks</title>
-    <link rel="stylesheet" href="css/components.css">
-    <link rel="stylesheet" href="css/icons.css">
-    <link rel="stylesheet" href="css/responsee.css">
-    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
-    <link rel="stylesheet" href="owl-carousel/owl.theme.css">
-    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
-    <!-- CUSTOM STYLE -->
-    <link rel="stylesheet" href="css/template-style.css">
     <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
-    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="js/validation.js"></script>
+    <script src="js/generate.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#gaming_barn_header").load("header.html");
+            $("#gaming_barn_footer").load("footer.html");
+        });
+    </script>
 </head>
-
 <body class="size-1140">
-    <!-- HEADER -->
-    <header class="grid">
-        <!-- Top Navigation -->
-        <nav class="m-12 grid margin-bottom">
-            <!-- logo -->
-            <a href="index.html" class="m-12 l-3 padding">
-                <img src="img/sitelogo.png">
-            </a>
-            <div class="top-nav s-12 l-9">
-                <ul class="top-ul right chevron">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="datapacks.html">Datapacks</a></li>
-                    <li><a href="maps.html">Maps/Worlds</a></li>
-                    <li><a href="mods.html">Mods</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+    <div id="gaming_barn_header"></div>
 
-    <!-- MAIN -->
     <main role="main">
         <!-- Datapack Sec 1 -->
         <section class="grid box margin-bottom" style="margin-top: 0px;">
@@ -55,104 +33,90 @@
         <!-- SECTION 1 -->
         <section class="grid margin">
             <div class="s-12 l-4 box margin-bottom text-center">
-            <a href="gamingbarns_guns.html">
-                <img src="img/icons/gamingbarns_guns.png" onmouseover="this.src='img/icons/gamingbarns_guns_hover.png'"
-                    onmouseout="this.src='img/icons/gamingbarns_guns.png'" alt="" style="display: inline;">
-            </a>
+                <a href="gamingbarns_guns.html">
+                    <img src="img/icons/gamingbarns_guns.png" onmouseover="this.src='img/icons/gamingbarns_guns_hover.png'"
+                         onmouseout="this.src='img/icons/gamingbarns_guns.png'" alt="" style="display: inline;">
+                </a>
             </div>
             <div class="s-12 l-4 box margin-bottom text-center">
-            <a href="ultra_hardcore.html">
-                <img src="img/icons/ultra_hardcore.png" onmouseover="this.src='img/icons/ultra_hardcore_hover.png'"
-                    onmouseout="this.src='img/icons/ultra_hardcore.png'" alt="" style="display: inline;">
-            </a>
+                <a href="ultra_hardcore.html">
+                    <img src="img/icons/ultra_hardcore.png" onmouseover="this.src='img/icons/ultra_hardcore_hover.png'"
+                         onmouseout="this.src='img/icons/ultra_hardcore.png'" alt="" style="display: inline;">
+                </a>
             </div>
             <div class="s-12 l-4 box margin-bottom text-center">
-            <a href="diamond_piglins.html">
-                <img src="img/icons/diamond_piglins.png" onmouseover="this.src='img/icons/diamond_piglins_hover.png'"
-                    onmouseout="this.src='img/icons/diamond_piglins.png'" alt="" style="display: inline;">
-            </a>
+                <a href="diamond_piglins.html">
+                    <img src="img/icons/diamond_piglins.png" onmouseover="this.src='img/icons/diamond_piglins_hover.png'"
+                         onmouseout="this.src='img/icons/diamond_piglins.png'" alt="" style="display: inline;">
+                </a>
             </div>
 
             <!--Sec 2 of list-->
             <div class="s-12 l-4 box margin-bottom text-center">
-            <a href="smithing_skeletons_download.html">
-                <img src="img/icons/smithing_skeletons.png"
-                    onmouseover="this.src='img/icons/smithing_skeletons_hover.png'"
-                    onmouseout="this.src='img/icons/smithing_skeletons.png'" alt="" style="display: inline;">
-            </a>
+                <a href="smithing_skeletons_download.html">
+                    <img src="img/icons/smithing_skeletons.png"
+                         onmouseover="this.src='img/icons/smithing_skeletons_hover.png'"
+                         onmouseout="this.src='img/icons/smithing_skeletons.png'" alt="" style="display: inline;">
+                </a>
             </div>
             <div class="s-12 l-4 box margin-bottom text-center">
-            <a href="gamingbarns_zombie_apocalypse.html">
-                <img src="img/icons/gamingbarns_zombie_apocalypse.png"
-                    onmouseover="this.src='img/icons/gamingbarns_zombie_apocalypse_hover.png'"
-                    onmouseout="this.src='img/icons/gamingbarns_zombie_apocalypse.png'" alt="" style="display: inline;">
-            </a>
+                <a href="gamingbarns_zombie_apocalypse.html">
+                    <img src="img/icons/gamingbarns_zombie_apocalypse.png"
+                         onmouseover="this.src='img/icons/gamingbarns_zombie_apocalypse_hover.png'"
+                         onmouseout="this.src='img/icons/gamingbarns_zombie_apocalypse.png'" alt="" style="display: inline;">
+                </a>
             </div>
             <div class="s-12 l-4 box margin-bottom text-center">
-            <a href="zombie_survival_challange_download.html">
-                <img src="img/icons/zombie_survival_challange.png"
-                    onmouseover="this.src='img/icons/zombie_survival_challange_hover.png'"
-                    onmouseout="this.src='img/icons/zombie_survival_challange.png'" alt="" style="display: inline;">
-            </a>
+                <a href="zombie_survival_challange_download.html">
+                    <img src="img/icons/zombie_survival_challange.png"
+                         onmouseover="this.src='img/icons/zombie_survival_challange_hover.png'"
+                         onmouseout="this.src='img/icons/zombie_survival_challange.png'" alt="" style="display: inline;">
+                </a>
             </div>
 
             <!--Sec 3 of list-->
             <div class="s-12 l-4 box margin-bottom text-center">
-            <a href="effect_gems_download.html">
-                <img src="img/icons/effect_gems.png" onmouseover="this.src='img/icons/effect_gems_hover.png'"
-                    onmouseout="this.src='img/icons/effect_gems.png'" alt="" style="display: inline;">
-            </a>
+                <a href="effect_gems_download.html">
+                    <img src="img/icons/effect_gems.png" onmouseover="this.src='img/icons/effect_gems_hover.png'"
+                         onmouseout="this.src='img/icons/effect_gems.png'" alt="" style="display: inline;">
+                </a>
             </div>
             <div class="s-12 l-4 box margin-bottom text-center">
-            <a href="grass_die_download.html">
-                <img src="img/icons/grass_die.png" onmouseover="this.src='img/icons/grass_die_hover.png'"
-                    onmouseout="this.src='img/icons/grass_die.png'" alt="" style="display: inline;">
-            </a>
+                <a href="grass_die_download.html">
+                    <img src="img/icons/grass_die.png" onmouseover="this.src='img/icons/grass_die_hover.png'"
+                         onmouseout="this.src='img/icons/grass_die.png'" alt="" style="display: inline;">
+                </a>
             </div>
             <div class="s-12 l-4 box margin-bottom text-center">
-            <a href="temple_relics.html">
-                <img src="img/icons/temple_relics.png" onmouseover="this.src='img/icons/temple_relics_hover.png'"
-                    onmouseout="this.src='img/icons/temple_relics.png'" alt="" style="display: inline;">
-            </a>
+                <a href="temple_relics.html">
+                    <img src="img/icons/temple_relics.png" onmouseover="this.src='img/icons/temple_relics_hover.png'"
+                         onmouseout="this.src='img/icons/temple_relics.png'" alt="" style="display: inline;">
+                </a>
             </div>
 
             <!--Sec 4 of list-->
             <div class="s-12 l-4 box margin-bottom text-center">
-            <a href="the_harvester.html">
-                <img src="img/icons/the_harvester.png" onmouseover="this.src='img/icons/the_harvester_hover.png'"
-                    onmouseout="this.src='img/icons/the_harvester.png'" alt="" style="display: inline;">
-            </a>
+                <a href="the_harvester.html">
+                    <img src="img/icons/the_harvester.png" onmouseover="this.src='img/icons/the_harvester_hover.png'"
+                         onmouseout="this.src='img/icons/the_harvester.png'" alt="" style="display: inline;">
+                </a>
             </div>
             <div class="s-12 l-4 box margin-bottom text-center">
-            <a href="xmas_monster.html">
-                <img src="img/icons/xmas_monster.png" onmouseover="this.src='img/icons/xmas_monster_hover.png'"
-                    onmouseout="this.src='img/icons/xmas_monster.png'" alt="" style="display: inline;">
-            </a>
+                <a href="xmas_monster.html">
+                    <img src="img/icons/xmas_monster.png" onmouseover="this.src='img/icons/xmas_monster_hover.png'"
+                         onmouseout="this.src='img/icons/xmas_monster.png'" alt="" style="display: inline;">
+                </a>
             </div>
             <div class="s-12 l-4 box margin-bottom text-center">
-            <a href="gamingbarns_morph_datapack.html">
-                <img src="img/icons/gamingbarns_morph_datapack.png"
-                    onmouseover="this.src='img/icons/gamingbarns_morph_datapack_hover.png'"
-                    onmouseout="this.src='img/icons/gamingbarns_morph_datapack.png'" alt="" style="display: inline;">
-            </a>
+                <a href="gamingbarns_morph_datapack.html">
+                    <img src="img/icons/gamingbarns_morph_datapack.png"
+                         onmouseover="this.src='img/icons/gamingbarns_morph_datapack_hover.png'"
+                         onmouseout="this.src='img/icons/gamingbarns_morph_datapack.png'" alt="" style="display: inline;">
+                </a>
             </div>
         </section>
     </main>
 
-    <!-- FOOTER -->
-    <footer class="grid box">
-        <div class="s-12 text-center margin-bottom">
-            <p>
-                gamingbarn.net Copyright ©
-                <script type="text/javascript">
-                    y = new Date();
-                    year = y.getFullYear();
-                    document.write(year);
-                </script>
-            </p>
-        </div>
-    </footer>
-    <script type="text/javascript" src="js/responsee.js"></script>
+    <div id="gaming_barn_footer"></div>
 </body>
-
 </html>
