@@ -108,60 +108,62 @@
         <!--Download Buttons-->
         <section class="grid margin">
             <div class="s-12 l-6 box margin-bottom text-center">
-            <a href="downloads/gamingbarn-s-zombie-apocalypse-v1-4-1.zip">
-                <img src="img/download_button/download_button_website.png"
-                    onmouseover="this.src='img/download_button/download_button_website_hover.png'"
-                    onmouseout="this.src='img/download_button/download_button_website.png'" alt="" style="display: inline;">
-            </a>
-</div>
-<div class="s-12 l-6 box margin-bottom text-center">
-            <a href="https://www.planetminecraft.com/data-pack/zombie-apocalypse-challange/">
-                <img src="img/download_button/download_button_pmc.png"
-                    onmouseover="this.src='img/download_button/download_button_pmc_hover.png'"
-                    onmouseout="this.src='img/download_button/download_button_pmc.png'" alt="" style="display: inline;">
-            </a>
-        </div>
+                <a href="downloads/gamingbarn-s-zombie-apocalypse-v1-4-1.zip">
+                    <img src="img/download_button/download_button_website.png"
+                        onmouseover="this.src='img/download_button/download_button_website_hover.png'"
+                        onmouseout="this.src='img/download_button/download_button_website.png'" alt=""
+                        style="display: inline;">
+                </a>
+            </div>
+            <div class="s-12 l-6 box margin-bottom text-center">
+                <a href="https://www.planetminecraft.com/data-pack/zombie-apocalypse-challange/">
+                    <img src="img/download_button/download_button_pmc.png"
+                        onmouseover="this.src='img/download_button/download_button_pmc_hover.png'"
+                        onmouseout="this.src='img/download_button/download_button_pmc.png'" alt=""
+                        style="display: inline;">
+                </a>
+            </div>
         </section>
-        </main>
-        <!-- FOOTER -->
+    </main>
+    <!-- FOOTER -->
 
-        <div id="gaming_barn_footer"></div>
-   
-        <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
-        <script type="text/javascript">
-            jQuery(document).ready(function ($) {
-                var owl = $('#header-carousel');
-                owl.owlCarousel({
-                    nav: true,
-                    dots: true,
-                    items: 1,
-                    loop: true,
-                    navText: ["&#xf007", "&#xf006"],
-                    autoplay: true,
-                    autoplayTimeout: 3000
-                });
-                var owl = $('#gallery-carousel');
-                owl.owlCarousel({
-                    nav: false,
-                    dots: true,
-                    loop: true,
-                    navText: ["&#xf007", "&#xf006"],
-                    autoplay: true,
-                    autoplayTimeout: 3000,
-                    responsive: {
-                        0: {
-                            items: 1
-                        },
-                        769: {
-                            items: 2
-                        },
-                        960: {
-                            items: 4
-                        }
+    <div id="gaming_barn_footer"></div>
+
+    <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            var owl = $('#header-carousel');
+            owl.owlCarousel({
+                nav: true,
+                dots: true,
+                items: 1,
+                loop: true,
+                navText: ["&#xf007", "&#xf006"],
+                autoplay: true,
+                autoplayTimeout: 3000
+            });
+            var owl = $('#gallery-carousel');
+            owl.owlCarousel({
+                nav: false,
+                dots: true,
+                loop: true,
+                navText: ["&#xf007", "&#xf006"],
+                autoplay: true,
+                autoplayTimeout: 3000,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    769: {
+                        items: 2
+                    },
+                    960: {
+                        items: 4
                     }
-                });
-            })
-        </script>
+                }
+            });
+        })
+    </script>
 
 </body>
 
