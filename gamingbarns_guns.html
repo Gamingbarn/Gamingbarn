@@ -158,53 +158,43 @@
       </section>
 </main>
       <!-- FOOTER -->
-      <footer class="grid box">
-         <div class="s-12 text-center margin-bottom">
-            <p>
-               gamingbarn.net Copyright ©
-               <script type="text/javascript">
-                  y = new Date();
-                  year = y.getFullYear();
-                  document.write(year);
-               </script>
-            </p>
-         </div>
-      </footer>
-      <script type="text/javascript" src="js/responsee.js"></script>
+
+      <div id="gaming_barn_footer"></div>
+   
       <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
       <script type="text/javascript">
-         jQuery(document).ready(function ($) {
-            var owl = $('#header-carousel');
-            owl.owlCarousel({
-               nav: true,
-               dots: true,
-               items: 1,
-               loop: true,
-               navText: ["&#xf007", "&#xf006"],
-               autoplay: true,
-               autoplayTimeout: 3000
-            });
-            var owl = $('#gallery-carousel');
-            owl.owlCarousel({
-               nav: false,
-               dots: true,
-               loop: true,
-               navText: ["&#xf007", "&#xf006"],
-               autoplay: true,
-               autoplayTimeout: 3000,
-               responsive: {
-                  0: {
-                     items: 1
-                  },
-                  769: {
-                     items: 2
-                  },
-                  960: {
-                     items: 4
+          jQuery(document).ready(function ($) {
+              var owl = $('#header-carousel');
+              owl.owlCarousel({
+                  nav: true,
+                  dots: true,
+                  items: 1,
+                  loop: true,
+                  navText: ["&#xf007", "&#xf006"],
+                  autoplay: true,
+                  autoplayTimeout: 3000
+              });
+              var owl = $('#gallery-carousel');
+              owl.owlCarousel({
+                  nav: false,
+                  dots: true,
+                  loop: true,
+                  navText: ["&#xf007", "&#xf006"],
+                  autoplay: true,
+                  autoplayTimeout: 3000,
+                  responsive: {
+                      0: {
+                          items: 1
+                      },
+                      769: {
+                          items: 2
+                      },
+                      960: {
+                          items: 4
+                      }
                   }
-               }
-            });
-         })
+              });
+          })
       </script>
 </body>
 
