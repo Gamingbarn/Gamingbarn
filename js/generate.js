@@ -74,9 +74,9 @@ if (!document.getElementById('jquery_ui')) {
 }
 
 /* <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script> */
-if (!document.getElementById('js_owl_carousel')) {
-    var script = document.createElement('script');
-    script.id = 'js_owl_carousel';
-    script.src = '/owl-carousel/owl.carousel.js';
-    document.head.appendChild(script);
-}
+// if (!document.getElementById('js_owl_carousel')) {
+//     var script = document.createElement('script');
+//     script.id = 'js_owl_carousel';
+//     script.src = '/owl-carousel/owl.carousel.js';
+//     document.head.appendChild(script);
+// }
