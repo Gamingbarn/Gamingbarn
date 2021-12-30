@@ -5,17 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gamingbarn / Maps</title>
-    <link rel="stylesheet" href="css/components.css">
-    <link rel="stylesheet" href="css/icons.css">
-    <link rel="stylesheet" href="css/responsee.css">
-    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
-    <link rel="stylesheet" href="owl-carousel/owl.theme.css">
-    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
-    <!-- CUSTOM STYLE -->
-    <link rel="stylesheet" href="css/template-style.css">
+
     <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
-    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="js/validation.js"></script>
+    <script src="js/generate.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#gaming_barn_header").load("header.html");
+            $("#gaming_barn_footer").load("footer.html");
+        });
+    </script>
 </head>
 
 <body class="size-1140">
@@ -75,18 +74,7 @@
 
     </main>
     <!-- FOOTER -->
-    <footer class="grid box" style="margin-top: 435px">
-        <div class="s-12 text-center margin-bottom">
-            <p>
-                gamingbarn.net Copyright ©
-                <script type="text/javascript">
-                    y = new Date();
-                    year = y.getFullYear();
-                    document.write(year);
-                </script>
-            </p>
-        </div>
-    </footer>
+    <div id="gaming_barn_footer"></div>
     <script type="text/javascript" src="js/responsee.js"></script>
 </body>
 </html>
