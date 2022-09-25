@@ -178,12 +178,18 @@
                 -Gives regeneration 2 for a short period of time<br>
                 -Gives instant health 1<br>
                 -Clears all negative effects<br>
-                <b>Regeneration Syringe</b><br>
-                -Gives regeneration 1 for a medium period of time<br>
-                <b>Absorption Syringe</b><br>
-                -Gives 8 absorption hearts for 10 minutes.<br>
                 <b>Bandage</b><br>
                 -Heals 6 hp over 4 seconds<br>
+                <b>Regeneration Syringe</b><br>
+                -Gives regeneration 1 for a medium period of time<br>
+                <b>Swiftness Syringe</b><br>
+                -Gives speed 4 for 30 seconds<br>
+                <b>Resistance Syringe</b><br>
+                -Gives resistance 1 for 1 minute<br>
+                <b>Absorption Syringe</b><br>
+                -Gives 8 absorption hearts for 10 minutes<br>
+                <b>Health Boost Syringe</b><br>
+                -Gives 4 extra hearts for 6.5 minutes<br>
                 ---------------------------------------------------------------------------------------------<br>
                 <b>C4</b><br>
                 -Drops to the ground when used<br>
@@ -192,14 +198,18 @@
                 -Drops to the ground when used<br>
                 -Arms itself after 10 seconds<br>
                 -Explodes when an entity touches it<br>
-                <b>Auto Turret</b><br>
-                -Drops to the ground when used<br>
-                -Will shoot nearby hostile mobs<br>
-                -Lasts for 5 minutes<br>
+                -Can be triggered by arrows<br>
                 <b>Laser Shield</b><br>
                 -Gives you an additional 10 hearts when used<br>
                 -Hearts last for 10 minutes<br>
                 -Hearts will disappear if you die<br>
+                <b>Auto Turret</b><br>
+                -Drops to the ground when used<br>
+                -Can choose between shooting at nearby Monsters, Players, or Monsters and Players<br>
+                -Has 30 HP<br>
+                You can edit the settings, repair, and pickup the turret by running:<br>
+                /trigger turret_settings<br>
+                <i>You can only edit the turret if you are the owner.</i><br>
                 ---------------------------------------------------------------------------------------------<br>
                 There are several commands you can run to give yourself the various items in this datapack.<br>
                 You can get all guns by running the command:<br>
@@ -221,22 +231,26 @@
                 You can give yourself each item individually by running the command:<br>
                 /function give:[ITEM_NAME]<br>
                 <br>
-                (For players with cheats only)<br><i>
-                    ---------------------------------------------------------------------------------------------<br>
-                    Gamingbarn's Guns Datapack © 2022 by Gamingbarn<br>
-                    is licensed under Attribution-NonCommercial-NoDerivatives 4.0 International<br>
-                    creativecommons.org/licenses/by/4.0/<br>
-                    <br>
-                    An exception is made for video content, which can be monetized.<br>
-                    However, video creators must give appropriate credit by leaving a DIRECT link to this page in the
-                    video description.<br>
-                    Do not reupload this on other sites.<br>
-                    <br>
-                    This license affects datapack versions V1.8.1 and above.<br>
-                    <br>
-                    Official downloads are on www.gamingbarn.net and
-                    https://www.planetminecraft.com/member/gamingbarn/<br>
-                    You agree to this license upon downloading.<br></i>
+                <br>
+                You can also make players immune to most gunshots by running the command:<br>
+                /function config:player_damage_off<br>
+                <br>
+                <i>(For players with cheats only)<br>
+                ---------------------------------------------------------------------------------------------<br>
+                Gamingbarn's Guns Datapack © 2022 by Gamingbarn<br>
+                is licensed under Attribution-NonCommercial-NoDerivatives 4.0 International<br>
+                creativecommons.org/licenses/by/4.0/<br>
+                <br>
+                An exception is made for video content, which can be monetized.<br>
+                However, video creators must give appropriate credit by leaving a DIRECT link to this page in the
+                video description.<br>
+                Do not reupload this on other sites.<br>
+                <br>
+                This license affects datapack versions V1.8.1 and above.<br>
+                <br>
+                Official downloads are on www.gamingbarn.net and
+                https://www.planetminecraft.com/member/gamingbarn/<br>
+                You agree to this license upon downloading.<br></i>
                 ---------------------------------------------------------------------------------------------<br>
                 <br>
                 <i>If you use the guns in creative mode they will still require and consume ammo.</i><br>
@@ -248,7 +262,7 @@
         <!--Download Buttons and Changelog Button-->
         <section class="grid margin">
             <div class="s-12 l-4 box margin-bottom text-center">
-                <a href="/downloads/gbg/v1.12/Gamingbarn's-Guns-UNZIP_ME.zip">
+                <a href="/downloads/gbg/v1.13/Gamingbarn's Guns_UNZIP_ME.zip">
                     <img src="/img/download_button/download_button_website.png"
                         onmouseover="this.src='/img/download_button/download_button_website_hover.png'"
                         onmouseout="this.src='/img/download_button/download_button_website.png'" alt="Download Datapack Directly"
