@@ -109,7 +109,7 @@ a.tooltip-container,.tooltip-container {
 }
 a .tooltip-content,.tooltip-content {
   background: #152732 none repeat scroll 0 0;
-  color: #fff!important;
+  color: #fff;
   border-radius: 3px;
   display: none;
   font-size: 0.8rem;
