@@ -1,163 +1,177 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<!--hi-->
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gamingbarn / Test Page</title>
-    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
-    <script src="js/generate.js"></script>
+    <title>Testing Page</title>
 
+    <script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
+    <script src="/js/generate.js"></script>
+    <!-- Essential and CSS -->
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/icons.css">
+    <link rel="stylesheet" href="/css/responsee.css">
+    <link rel="stylesheet" href="/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="/owl-carousel/owl.theme.css">
+    
     <script>
         $(document).ready(function () {
-            $("#gaming_barn_header").load("header.html");
-            $("#gaming_barn_footer").load("footer.html");
+            $("#gaming_barn_header").load("/header.html");
+            $("#gaming_barn_footer").load("/footer.html");
         });
     </script>
-    <style>
-        .specialyo {
-            border: solid;
-            color: #000000;
-            border: 12px solid #d3d3d3;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            margin: 4px 2px;
-            cursor: pointer;
-            background-color: #f3f3f3;
-            font-weight: 100;
-            height: 480px;
-        }
-
-        .specialyo:hover {
-            color: #000000;
-            background-color: #d3d3d3;
-            border: 12px solid #bebebe;
-        }
-
-        a {
-            color: #000000;
-        }
-
-        a:hover {
-            color: #000000;
-        }
-    </style>
 </head>
 
 <body class="size-1140">
+    <!-- HEADER -->
     <div id="gaming_barn_header"></div>
 
+
+    <!-- MAIN -->
     <main role="main">
-        <!-- Datapack Sec 1 -->
-        <section class="grid box margin-bottom" style="margin-top: 0px;">
-            <div class="m-12 l-7 center text-center">
-                <h1>Datapacks</h1>
-                <p>
-                    Datapacks are ways to modify your Minecraft world without the use of modding software such as forge
-                    or fabric.
-                    All datapacks shown here work on Minecraft's Latest release.
-                </p>
+        <!-- TOP SECTION -->
+        <section class="grid">
+            <!-- Main Carousel -->
+            <div id="header-carousel" class="s-12 owl-carousel owl-theme margin-bottom">
+                <div class="item"><img src="/img/download_page/enhanced_jewelry/enhanced_jewelry0.png" alt=""></div>
+                <div class="item"><img src="/img/download_page/enhanced_jewelry/enhanced_jewelry1.png" alt=""></div>
+                <div class="item"><img src="/img/download_page/enhanced_jewelry/enhanced_jewelry2.png" alt=""></div>
+                <div class="item"><img src="/img/download_page/enhanced_jewelry/enhanced_jewelry3.png" alt=""></div>
+                <div class="item"><img src="/img/download_page/enhanced_jewelry/enhanced_jewelry4.png" alt=""></div>
+                <div class="item"><img src="/img/download_page/enhanced_jewelry/enhanced_jewelry5.png" alt=""></div>
+                <div class="item"><img src="/img/download_page/enhanced_jewelry/enhanced_jewelry6.png" alt=""></div>
+                <div class="item"><img src="/img/download_page/enhanced_jewelry/enhanced_jewelry7.png" alt=""></div>
+                <div class="item"><img src="/img/download_page/enhanced_jewelry/enhanced_jewelry8.png" alt=""></div>
             </div>
         </section>
-
-        <!-- SECTION 1 -->
-        <section class="grid margin">
-            <a href="/html/datapacks/gbm/gamingbarns_morph_datapack.html" class="s-12 l-4 margin-bottom text-center">
-                <div class="specialyo">
-                    <img src="/img/download_page/icons/gbm.png">
-                    <h2>Gamingbarn's Morph Datapack</h2>
-                </div>
-            </a>
-            <a href="/html/datapacks/gbg/gamingbarns_guns.html" class="s-12 l-4 margin-bottom text-center">
-                <div class="specialyo">
-                    <img src="/img/download_page/icons/gbg.png">
-                    <h1>Gamingbarn's Guns</h1>
-                </div>
-            </a>
-            <a href="/gamingbarns_zombies.html" class="s-12 l-4 margin-bottom text-center">
-                <div class="specialyo">
-                    <img src="/img/download_page/icons/gbz.png">
-                    <h1>Gamingbarn's Zombies</h1>
-                </div>
-            </a>
-
-            <!--Sec 2 of list-->
-            <a href="/temple_relics.html" class="s-12 l-4 margin-bottom text-center">
-                <div class="specialyo">
-                    <img src="/img/download_page/icons/tr.png">
-                    <h1>Temple Relics</h1>
-                </div>
-            </a>
-            <a href="/enhanced_jewelry.html" class="s-12 l-4 margin-bottom text-center">
-                <div class="specialyo">
-                    <img src="/img/download_page/icons/ej.png">
-                    <h1>Enhanced Jewelry</h1>
-                </div>
-            </a>
-            <a href="/effect_gems.html" class="s-12 l-4 margin-bottom text-center">
-                <div class="specialyo">
-                    <img src="/img/download_page/icons/ef.png">
-                    <h1>Effect Gems</h1>
-                </div>
-            </a>
-
-            <!--Sec 3 of list-->
-            <a href="/grass_die_download.html" class="s-12 l-4 margin-bottom text-center">
-                <div class="specialyo">
-                    <img src="/img/download_page/icons/mcbiytgyd.png">
-                    <h2>Minecraft, But if You Touch Grass You Die</h2>
-                </div>
-            </a>
-            <a href="/html/datapacks/uh/ultra_hardcore.html" class="s-12 l-4 margin-bottom text-center">
-                <div class="specialyo">
-                    <img src="/img/download_page/icons/ej.png">
-                    <h1>Ultra Hardcore</h1>
-                </div>
-            </a>
-            <a href="/xmas_monster.html" class="s-12 l-4 margin-bottom text-center">
-                <div class="specialyo">
-                    <img src="/img/download_page/icons/cm.png">
-                    <h1>The Christmas Monster</h1>
-                </div>
-            </a>
-
-            <!--Sec 4 of list-->
-            <a href="/smithing_skeletons.html" class="s-12 l-4 margin-bottom text-center">
-                <div class="specialyo">
-                    <img src="/img/download_page/icons/ss.png">
-                    <h1>Smithing Skeletons</h1>
-                </div>
-            </a>
-            <a href="/html/datapacks/dp/diamond_piglins.html" class="s-12 l-4 margin-bottom text-center">
-                <div class="specialyo">
-                    <img src="/img/download_page/icons/dp.png">
-                    <h1>Diamond Piglins</h1>
-                </div>
-            </a>
-            <a href="/the_harvester.html" class="s-12 l-4 margin-bottom text-center">
-                <div class="specialyo">
-                    <img src="/img/download_page/icons/th.png">
-                    <h1>The Harvester</h1>
-                </div>
-            </a>
-
+        <section class="grid box margin-bottom" style="margin-top: 0;">
+            <div class="m-12 l-7 center text-left">
+                Enhanced Jewelry adds a brand-new jeweling system to Minecraft!<br>
+                This system adds in rings, bracelets, and necklaces.<br>
+                Along with 7 different gems.<br>
+                Each one granting the jewelry their own special attributes.<br>
+                <hr>
+                There are 3 tiers of jewelry;<br>
+                Copper, iron, and gold.<br>
+                Copper is the weakest, gold is the strongest and iron is in the middle of the road.<br>
+                <hr>
+                Each gem has its own method of being obtained.<br>
+                <b>Ruby</b><br>
+                Has a chance of being dropped by common undead mobs (eg: zombies skeletons)<br>
+                <b>Emerald</b><br>
+                Has a high chance of dropping when an emerald ore is mined.<br>
+                <b>Amethyst</b><br>
+                Has a chance of dropping when a fully grown amethyst cluster is mined.<br>
+                <b>Quartz</b><br>
+                Has a chance of dropping when a nether quartz ore is mined.<br>
+                <b>Diamond</b><br>
+                Has a chance of dropping when diamond ore is mined.<br>
+                <b>Topaz</b><br>
+                Has a chance of being found in desert pyramids and jungle temples.<br>
+                <b>Sapphire</b><br>
+                Has a chance of being found in village houses.<br>
+                <hr>
+                To make jewelry you must craft a jewelry station, the recipe is in the image galley.<br>
+                You place the base jewelry in the left slot and place a gem in the center slot.<br>
+                The crafted item will appear in the far right slot.<br>
+                WARNING: IF ANY ITEMS ARE IN THE FAR RIGHT SLOT WHEN A CRAFT IS MADE<br>
+                THEY WILL BE DELETED<br>
+                <hr>
+                Each gem, when added, will give the jewelry different effects.<br>
+                The effects are as followed:<br>
+                <br>
+                🗡 Attack - Increases the melee attack of the wearer<br>
+                ☀ Speed - Increases the movement speed of the wearer<br>
+                ☠ Poison - The wearers attacks will deal damage over time to the target<br>
+                ↑ Jump Boost - Increases the jump height of the wearer<br>
+                ❤ Health - Increases the maximum health of the wearer<br>
+                ∘⚪◌ Water Breathing - After the wearer is submerged in water, they can breath underwater for a brief period of time.<br>
+                ⚡ Lightning - Entities nearby the wearers target will take damage too.<br>
+                <hr>
+                To use the jewelry they must be placed in the appropriate slots in the inventory.<br>
+                The jewelry slots can be used as regular inventory slots if needed.<br>
+                <hr>
+                These textures take HEAVY inspiration from Wynncraft.<br>
+                <hr>
+                <i>Enhanced Jewelry Datapack © 2022 by Gamingbarn<br>
+                    is licensed under Attribution-NonCommercial-NoDerivatives 4.0 International<br>
+                    creativecommons.org/licenses/by/4.0/<br>
+                    <br>
+                    An exception is made for video content, which can be monetized.<br>
+                    However, video creators must give appropriate credit by leaving a DIRECT link to this page in the video description.<br>
+                    Do not reupload this on other sites.<br>
+                    <br>
+                    This license affects datapack versions V1.0.2 and above.<br>
+                    <br>
+                    Official downloads are on www.gamingbarn.net and www.planetminecraft.com/member/gamingbarn/</i><br>
+                    <hr>
+                <br>
+                <i>This datapack was made by Gamingbarn</i><br>
+                <br>
+                <i>No reposting without my permission.</i><br>
+            </div>
         </section>
-        <section class="grid box margin-bottom" style="margin-top:0px;">
-            <div class="m-12 l-7 center text-center">
-                <p>
-                    All of the datapacks listed here are reciving updates when I finish them.<br> However, if you would
-                    like access to these updates sooner and<br> even be notified when they release then check out my <a
-                        href="https://www.planetminecraft.com/member/gamingbarn/" target="_blank"
-                        rel="noopener noreferrer">Planet Minecraft</a>!
-                </p>
+        <!--Download Buttons-->
+        <section class="grid margin">
+            <div class="s-12 l-6 box margin-bottom text-center">
+                <a href="/downloads/ej/enhanced-jewelry-UNZIP-ME.zip">
+                    <img src="/img/download_button/download_button_website.png"
+                        onmouseover="this.src='/img/download_button/download_button_website_hover.png'"
+                        onmouseout="this.src='/img/download_button/download_button_website.png'" alt=""
+                        style="display: inline;">
+                </a>
+            </div>
+            <div class="s-12 l-6 box margin-bottom text-center">
+                <a href="https://www.planetminecraft.com/data-pack/enhanced-jewelry/" target="_blank" rel="noopener noreferrer">
+                    <img src="/img/download_button/download_button_pmc.png"
+                        onmouseover="this.src='/img/download_button/download_button_pmc_hover.png'"
+                        onmouseout="this.src='/img/download_button/download_button_pmc.png'" alt=""
+                        style="display: inline;">
+                </a>
             </div>
         </section>
     </main>
+    <!-- FOOTER -->
 
     <div id="gaming_barn_footer"></div>
+
+    <script type="text/javascript" src="/owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            var owl = $('#header-carousel');
+            owl.owlCarousel({
+                nav: true,
+                dots: true,
+                items: 1,
+                loop: true,
+                navText: ["&#xf007", "&#xf006"],
+                autoplay: true,
+                autoplayTimeout: 3000
+            });
+            var owl = $('#gallery-carousel');
+            owl.owlCarousel({
+                nav: false,
+                dots: true,
+                loop: true,
+                navText: ["&#xf007", "&#xf006"],
+                autoplay: true,
+                autoplayTimeout: 3000,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    769: {
+                        items: 2
+                    },
+                    960: {
+                        items: 4
+                    }
+                }
+            });
+        })
+    </script>
+
 </body>
 
 </html>
