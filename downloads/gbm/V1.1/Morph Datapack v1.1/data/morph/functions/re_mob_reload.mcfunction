@@ -1,0 +1,1 @@
+schedule function morph:mob_reload 3s

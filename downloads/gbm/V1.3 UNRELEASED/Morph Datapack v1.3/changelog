@@ -1,0 +1,17 @@
+Fixed a few bugs here and there.
+-Bugs have been squished.
+
+Added bee morph
+-Can jump up 3 blocks
+-Has stinger that does 17 damage, you will get hurt when you use it.
+-Can glide.
+-Low health.
+-Can use shift to fly upwards.
+
+Added silverfish morph.
+-Can use shift to hide in silverfish infestable blocks.
+-Low health
+
+Removed feature where certain morphs couldn't wear certain pieces of armor.
+-It was annoying.
+-However it is still reccomended that you play without any armor as monsters and players can easily detect you.
