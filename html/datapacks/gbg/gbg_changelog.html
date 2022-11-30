@@ -36,6 +36,165 @@
                 </p>
             </div>
         </section>
+        <!-- V1.14.2 -->
+        <section class="grid box margin-bottom" style="margin-top: 0px;">
+            <div class="m-12 l-7 center text-left">
+                <h3><a href="/downloads/gbg/V1.14.2/Gamingbarn's Guns__UNZIP_ME.zip" target="_blank" rel="noopener noreferrer">V1.14.2</a></h3>
+                <p>
+                    <b>Fixed audio bug with Auto Turrets</b><br>
+                    All Auto Turrets could potentially spam the damage AND repair sound at the same time non-stop<br>
+                </p>
+            </div>
+        </section>
+        <!-- V1.14.1 -->
+        <section class="grid box margin-bottom" style="margin-top: 0px;">
+            <div class="m-12 l-7 center text-left">
+                <h3><a href="/downloads/gbg/V1.14.1/Gamingbarn's Guns_UNZIP_ME.zip" target="_blank" rel="noopener noreferrer">V1.14.1</a></h3>
+                <p>
+                    <b>Fixed Auto Turret resource duplication bug</b><br>
+                    When picking up and Auto Turret, the Auto Turret would be given back as well as the resources it took to craft it<br>
+                    <br>
+                    <b>Fixed Auto Turret description broken bug</b><br>
+                    When picking up an Auto Turret the updated description wouldn't carry over<br>
+                </p>
+            </div>
+        </section>
+        <!-- V1.14 -->
+        <section class="grid box margin-bottom" style="margin-top: 0px;">
+            <div class="m-12 l-7 center text-left">
+                <h3><a href="/downloads/gbg/V1.14/Gamingbarn's Guns_UNZIP_ME.zip" target="_blank" rel="noopener noreferrer">V1.14</a></h3>
+                <p>
+                    <b>Fixed Ink Blaster looking like Chem Thrower bug</b><br>
+                    There was a bug where the ink blaster looked like the chem thrower when shot/reloaded<br>
+                    <br>
+                    <b>Gave Auto Turrets water breathing</b><br>
+                    Now Auto Turrets won't die from being underwater<br>
+                    <br>
+                    <b>Fixed Health Boost Syringe giving resistance bug</b><br>
+                    Health Boost Syringes used to give resistance<br>
+                    <br>
+                    <b>Implemented damaged Turret feature</b><br>
+                    Auto Turret health has been doubled<br>
+                    Whenever an turret goes below half health it will gain 14 armor points but lose functionality<br>
+                    Repair the turret in the /trigger turret_settings menu to make it operational again<br>
+                    Upon death, the turret will drop a portion of the resources it takes to craft it.<br>
+                    <br>
+                    <b>Removed dirt from flame raycast tag</b><br>
+                    It was there from debugging when I had made the flamethrower<br>
+                    <br>
+                    <b>Fixed bugged OUR OF AMMO message for Laser weapons</b><br>
+                    There was a bug that caused the laser weapons to display the messsage OUT OF AMMO on the actionbar even with AMMO<br>
+                    <br>
+                    <b>Added Laser Assault Rifle OUT OF AMMO display</b><br>
+                    The OUT OF AMMO display was missing for the assault laser Rifle<br>
+                    <br>
+                    <b>Renamed Laser Batteries in give namespace</b><br>
+                    In the give namespace the laser batteries were named "laser_pistol_ammo" and such<br>
+                    They are now named their actual in-game names<br>
+                    <br>
+                    <b>Renamed Shotgun Shell in give namespace</b><br>
+                    In the give namespace the shotgun shell was named "shotgun_ammo"<br>
+                    They are now named their actual in-game name<br>
+                    <br>
+                    <b>Overhauled Ammo System</b><br>
+                    The ammo system used by all guns has been revamped completely<br>
+                    Instead of being a per-player ammo system, it's now per-guns<br>
+                    Now it's possible to have multiple guns each with their own ammo level<br>
+                    <br>
+                    <b>Buffed range of most guns</b><br>
+                    A ton of guns have gained a range buff<br>
+                    Pistol 30->50<br>
+                    Assault Rifle 30->32<br>
+                    Sniper Rifle 80->110<br>
+                    Laser Pistol 40->70<br>
+                    Laser Rifle 60->86<br>
+                    Laser Cannon 90->122<br>
+                    Assault Laser Rifle 50->74<br>
+                    <br>
+                    <b>Updated Ray Gun fire sound</b><br>
+                    It fits the gun better<br>
+                </p>
+            </div>
+        </section>
+        <!-- V1.13 -->
+        <section class="grid box margin-bottom" style="margin-top: 0px;">
+            <div class="m-12 l-7 center text-left">
+                <h3><a href="/downloads/gbg/V1.13/Gamingbarn's Guns_UNZIP_ME.zip" target="_blank" rel="noopener noreferrer">V1.13</a></h3>
+                <p>
+                    <b>Optimized Land Mine Code</b><br>
+                    The code for the Land Mine has been optimized<br>
+                    This fixes several bugs such as:<br>
+                    Land Mines having activation delay when there is a lot of them<br>
+                    Land Mines not making the activation beeps when there is a lot of them<br>
+                    <br>
+                    <b>Optimized C4 Code</b><br>
+                    The code for the C4 has been optimized<br>
+                    This fixes C4s not making the appropriate beeping sounds<br>
+                    <br>
+                    <b>Added short wait time for Auto Turret</b><br>
+                    When an Auto Turret is deployed it must wait 5 seconds before firing<br>
+                    <br>
+                    <b>Lowered particle amount in Auto Turret raycast</b><br>
+                    The high amount wasn't necessary<br>
+                    <br>
+                    <b>Lowered Auto Turret damage from 5 to 3</b><br>
+                    It was a little OP, especially with the new Auto Turret<br>
+                    <br>
+                    <b>Made Auto Turrets Permanent</b><br>
+                    Auto Turrets now last forever<br>
+                    Auto Turrets now can take damage<br>
+                    Auto Turrets have a base HP of 30<br>
+                    <br>
+                    <b>Added Turret settings menu</b><br>
+                    The owner of a turret can now run the following command:<br>
+                    /trigger turret_settings<br>
+                    When standing next to their turret to bring up a menu<br>
+                    <br>
+                    <b>Added Swiftness Syringe</b><br>
+                    Gives swiftness 4 for 30 seconds<br>
+                    <br>
+                    <b>Added Resistance Syringe</b><br>
+                    Gives resistance 1 for 60 seconds<br>
+                    <br>
+                    <b>Added Health Bost Syringe</b><br>
+                    Gives health boost 2 for 6.5 minutes<br>
+                    <br>
+                    <b>Fixed Ray Gun: Red crafting book bugs</b><br>
+                    The Ray Gun: Red wasn't in the gun crafting manual<br>
+                    <br>
+                    <b>Increased Regeneration Syringe to give regeneration 2</b><br>
+                    A small little buff<br>
+                    <br>
+                    <b>Added details of med items to their descriptions</b><br>
+                    In each medical item's tooltip you can now find a list of that item's effects<br>
+                    <br>
+                    <b>Added player_damage config function</b><br>
+                    You can turn of the ability for players to be damaged by most guns by running the command:<br>
+                    /function config:player_damage_off<br>
+                    <br>
+                    <b>Arrows can now trigger land Mines</b><br>
+                    Finally a use for bows and crossbows<br>
+                    An easier way to deal will land Mines<br>
+                    <br>
+                    <b>Optimized tick.mcfunction</b><br>
+                    Moved pretty much all player commands to their own function<br>
+                    <br>
+                    <b>Fixed Assault Laser Rifle tooltip bug</b><br>
+                    The tooltip of the assault laser rifle would change during use<br>
+                    <br>
+                    <b>Changed Laser Cannon sound effects</b><br>
+                    It was too similar to the laser pistol sound<br>
+                    <br>
+                    <b>Added Minor Infection Cure</b><br>
+                    You can now craft a minor infection cure if you are playing with gbz<br>
+                    This new item can cure yourself of the minor infection<br>
+                    Or it can cure the nearest zombie villager/animal<br>
+                    <br>
+                    <b>Improved crafting method for gbz exclusive items</b><br>
+                    It was pretty easy-to-break before<br>
+                </p>
+            </div>
+        </section>
         <!-- V1.12 -->
         <section class="grid box margin-bottom" style="margin-top: 0px;">
             <div class="m-12 l-7 center text-left">
