@@ -2,7 +2,7 @@ The Zombie Virus is a disease that completely takes over the host's body.
 Players, villagers, and even some animals can become infected, being transformed into agressive husks.
 
 When the victim is infected, they will start to attack any nearby players or villagers.
-Zombies won't attack animals, but the animals can still be infected upon birth.
+Zombies won't attack animals, but the animals can spawn as infected.
 
 Fortunatly, a cure for this disease has been synthesized.
 Infected villagers and animals can be cured with the Minor Infection Cure.
