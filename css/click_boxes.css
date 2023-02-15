@@ -1,0 +1,83 @@
+/* datapack boxes */
+.datapack_box {
+    transition-duration: 0.2s;
+    border: solid;
+    color: #000000;
+    border: 12px solid #d3d3d3;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #f3f3f3;
+    font-weight: 100;
+    height: 480px;
+}
+
+.datapack_box:hover {
+    transition-duration: 0.2s;
+    color: #000000;
+    background-color: #d3d3d3;
+    border: 12px solid #bebebe;
+}
+
+/* download and changelog boxes */
+
+.download_box {
+    transition-duration: 0.2s;
+    border: solid;
+    color: #000000;
+    border: 12px solid #d3d3d3;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #f3f3f3;
+    font-weight: 100;
+    width: 340px;
+    height: 120px;
+    vertical-align: center;
+}
+
+.download_box:hover {
+    transition-duration: 0.2s;
+    color: #000000;
+    background-color: #d3d3d3;
+    border: 12px solid #bebebe;
+}
+
+/* alt download box */
+
+.alt_download_box {
+    transition-duration: 0.2s;
+    border: solid;
+    color: #000000;
+    border: 12px solid #5285528c;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #30dd2a;
+    font-weight: 100;
+    width: 340px;
+    height: 120px;
+    vertical-align: center;
+    background-image: linear-gradient(to top, #77777700, #77777700), url("/img/pmc_logo_high.png");
+    background-position: right center;
+    background-size: 110%;
+}
+
+.alt_download_box:hover {
+    transition-duration: 0.2s;
+    color: #000000;
+    background-color: #2bc726;
+    border: 12px solid rgba(22, 110, 19, 0.514)8c;
+    background-image: linear-gradient(to top, #00000033, #00000033), url("/img/pmc_logo_high.png");
+}
+
+
