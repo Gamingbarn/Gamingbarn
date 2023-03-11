@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="/css/responsee.css">
     <link rel="stylesheet" href="/owl-carousel/owl.carousel.css">
     <link rel="stylesheet" href="/owl-carousel/owl.theme.css">
-    
+    <link rel="stylesheet" href="/css/click_boxes.css">
+
     <script>
         $(document).ready(function () {
             $("#gaming_barn_header").load("/header.html");
@@ -52,13 +53,13 @@
                 /trigger [MORPH_MOB]<br>
                 Replace [MORPH_MOB] with the mob you wish to morph into.<br>
                 Up to 5 players can be the same morph at once.<br>
-                ----------------------------------------------<br>
+                ---------------------------------------------------------------------------------------------<br>
                 You can change the variant of certain morphs by running the command:<br>
                 /trigger skins<br>
                 Alternatively, you can run the command to change the mob and variant directly:<br>
                 /trigger [MOB]_[VARIANT_NAME]<br>
                 Replace [​MOB] with the name of the mob and [​VARIANT_NAME] with the name of the variant.   <br>
-                ----------------------------------------------<br>
+                ---------------------------------------------------------------------------------------------<br>
                 <b>Chicken</b><br>
                 4 Hp<br>
                 Has Slow Falling<br>
@@ -164,12 +165,12 @@
                 30 Hp<br>
                 Swims faster<br>
                 Slow on land<br>
-                ----------------------------------------------<br>
+                ---------------------------------------------------------------------------------------------<br>
                 If you want to disallow certain player's abilities to morph you can run the command:<br>
                 /tag PLAYER_NAME add no_morph<br>
                 If you would like to give back their ability to morph, run the command:<br>
                 /tag PLAYER_NAME remove no_morph<br>
-                ----------------------------------------------<br><i>
+                ---------------------------------------------------------------------------------------------<br><i>
                 Gamingbarn's Morph Datapack © 2022 by Gamingbarn<br>
                 is licensed under Attribution-NonCommercial-NoDerivatives 4.0 International<br>
                 creativecommons.org/licenses/by/4.0/<br>
@@ -182,37 +183,24 @@
                 <br>
                 Official downloads are on www.gamingbarn.net and https://www.planetminecraft.com/member/gamingbarn/<br>
                 You agree to this license upon downloading.<br></i>
-                ----------------------------------------------<br>
+                ---------------------------------------------------------------------------------------------<br>
             </div>
         </section>
 
-        <!--Download Buttons-->
+        <!--Download Buttons and Changelog Button-->
         <section class="grid margin">
-            <div class="s-12 l-4 box margin-bottom text-center">
-                <a href="/downloads/gbm/V1.9.1/Gamingbarn's Morph Datapack V1.9.1.zip">
-                    <img src="/img/download_button/download_button_website.png"
-                        onmouseover="this.src='/img/download_button/download_button_website_hover.png'"
-                        onmouseout="this.src='/img/download_button/download_button_website.png'" alt=""
-                        style="display: inline;">
-                </a>
-            </div>
-            <div class="s-12 l-4 box margin-bottom text-center">
-                <a
-                    href="https://www.planetminecraft.com/data-pack/minecraft-but-you-can-morph-between-multiple-different-mobs/" target="_blank" rel="noopener noreferrer">
-                    <img src="/img/download_button/download_button_pmc.png"
-                        onmouseover="this.src='/img/download_button/download_button_pmc_hover.png'"
-                        onmouseout="this.src='/img/download_button/download_button_pmc.png'" alt=""
-                        style="display: inline;">
-                </a>
-            </div>
-            <div class="m-12 l-4 box margin-bottom text-center">
-                <a href="/html/datapacks/gbm/gbm_changelog.html">
-                    <img src="/img/download_button/changelog_button_website.png"
-                        onmouseover="this.src='/img/download_button/changelog_button_website_hover.png'"
-                        onmouseout="this.src='/img/download_button/changelog_button_website.png'" alt="Changelog"
-                        style="display: inline;">
-                </a>
-            </div>
+            <a href="/downloads/gbm/V1.9.1/Gamingbarn's Morph Datapack V1.9.1.zip" class="s-12 l-4 margin-bottom text-center">
+                <div class="download_box">
+                    <h1>Download</h1>
+                </div></a>
+            <a href="https://www.planetminecraft.com/data-pack/minecraft-but-you-can-morph-between-multiple-different-mobs/" target="_blank" rel="noopener noreferrer" class="s-12 l-4 margin-bottom text-center">
+                <div class="alt_download_box">
+                    <h2>PMC Download</h2>
+                </div></a>
+            <a href="/html/datapacks/gbm/gbm_changelog.html" class="s-12 l-4 margin-bottom text-center">
+                <div class="download_box">
+                    <h1>Changelog</h1>
+                </div></a>
         </section>
     </main>
 
