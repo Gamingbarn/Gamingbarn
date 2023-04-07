@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gamingbarn / Home</title>
+
+    <script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
+    <script src="/js/generate.js"></script>
+    <!-- Essential and CSS -->
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/icons.css">
+    <link rel="stylesheet" href="/css/responsee.css">
+    <link rel="stylesheet" href="/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="/owl-carousel/owl.theme.css">
+
+    <script>
+        $(document).ready(function () {
+            $("#gaming_barn_header").load("/header.html");
+            $("#gaming_barn_footer").load("/footer.html");
+        });
+    </script>
+</head>
+
+<body class="size-1140">
+    <div id="gaming_barn_header"></div>
+
+    <main role="main">
+        <!-- TOP SECTION -->
+        <section class="grid">
+            <!-- Main Carousel -->
+            <div id="header-carousel" class="s-12 owl-carousel owl-theme margin-bottom">
+                <a href="/html/datapacks/gbg/gamingbarns_guns.html"><div class="item"><img src="/img/home/featured_datapack_gbg.png" alt=""></div></a>
+                <!-- <div class="item"><img src="img/home/screen2.png" alt=""></div>
+                <div class="item"><img src="img/home/screen3.png" alt=""></div> -->
+            </div>
+        </section>
+        <!-- About section 1 -->
+        <section class="grid margin">
+            <div class="s-12 l-4 box margin-bottom">
+                <p>Hi! My name is Gamingbarn! But you can call me Gamingb, Gaming, or GB just to name a few. I create datapacks and other projects for Minecraft</p>
+            </div>
+            <img class="s-12 l-8 margin-bottom" src="/img/home/about_me1.png">
+        </section>
+
+        <!-- About section 2 -->
+        <section class="grid margin">
+            <img class="s-12 l-8 margin-bottom" src="/img/home/about_me2.png">
+            <div class="s-12 l-4 box margin-bottom">
+                <p>
+                    The projects I make are always updated to the latest version. I also fix bugs and continually add new content to make sure my datapacks are of the highest possible quality.
+                </p>
+            </div>
+        </section>
+
+        <!-- About Sec 3 -->
+        <section class="grid margin">
+            <div class="s-12 l-4 box margin-bottom">
+                <p>
+                    If you find any bugs or have suggestions, please send me a message on <a href="https://www.planetminecraft.com/member/gamingbarn/" target="_blank"
+                    rel="noopener noreferrer">Planet Minecraft</a>. I am usually online and will respond as soon as possible.
+                    If you find a bug or have some suggestions, feel free to send me a messsage!
+                </p>
+            </div>
+            <img class="s-12 l-8 margin-bottom" src="/img/home/about_me3.png">
+        </section>
+    </main>
+
+    <div id="gaming_barn_footer"></div>
+
+    <script type="text/javascript" src="/owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            var owl = $('#header-carousel');
+            owl.owlCarousel({
+                nav: true,
+                dots: true,
+                items: 1,
+                loop: true,
+                navText: ["&#xf007", "&#xf006"],
+                autoplay: true,
+                autoplayTimeout: 3000
+            });
+            var owl = $('#gallery-carousel');
+            owl.owlCarousel({
+                nav: false,
+                dots: true,
+                loop: true,
+                navText: ["&#xf007", "&#xf006"],
+                autoplay: true,
+                autoplayTimeout: 3000,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    769: {
+                        items: 2
+                    },
+                    960: {
+                        items: 4
+                    }
+                }
+            });
+        })
+    </script>
+</body>
+
+</html>
