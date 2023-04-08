@@ -1,13 +1,39 @@
 <!DOCTYPE html>
-<html lang="en-US"></html>
-<html>
-    <head>
-        <title>MongoDB TEST</title>
-    </head>
-    <body>
-        <h1>MongoDB with Netlify Functions</h1>
-        <ul id="movies"></ul>
-        <script>
+<html lang="en-US">
+<!--hi-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gamingbarn / Tools</title>
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/generate.js"></script>
+    <!-- Essential and CSS -->
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/responsee.css">
+    <link rel="stylesheet" href="owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="owl-carousel/owl.theme.css">
+
+    <script>
+        $(document).ready(function () {
+            $("#gaming_barn_header").load("header.html");
+            $("#gaming_barn_footer").load("footer.html");
+        });
+    </script>
+</head>
+
+<body class="size-1140">
+    <div id="gaming_barn_header"></div>
+
+    <main role="main">
+        <section class="grid box margin-bottom" style="margin-top: 0px;">
+            <div class="m-12 l-7 center text-left">
+                <ul id="movies"></ul>
+            </div>
+        </section>
+    </main>
+    <script>
         (async () => {
             try {
                 let results = await fetch("/.netlify/functions/get_movies").then(response => response.json());
@@ -20,6 +46,8 @@
                 console.log(error);
             }
         })();
-        </script>
-    </body>
+    </script>
+    <div id="gaming_barn_footer"></div>
+</body>
+
 </html>
