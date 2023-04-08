@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gamingbarn / Tools</title>
+    <title>Gamingbarn / Stats</title>
     <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
     <script src="js/generate.js"></script>
     <!-- Essential and CSS -->
@@ -29,7 +29,10 @@
     <main role="main">
         <section class="grid box margin-bottom" style="margin-top: 0px;">
             <div class="m-12 l-7 center text-left">
-                <ul id="movies"></ul>
+                <h3>Datapacks</h3>
+                <hr>
+                <div id="datapack_names"></div>
+                <hr>
             </div>
         </section>
     </main>
@@ -38,9 +41,9 @@
             try {
                 let results = await fetch("/.netlify/functions/get_movies").then(response => response.json());
                 results.forEach(result => {
-                    const listItem = document.createElement("li");
-                    listItem.innerText = result.title;
-                    document.getElementById("movies").appendChild(listItem);
+                    const listItem = document.createElement("p");
+                    listItem.innerText = result.datapack_name;
+                    document.getElementById("datapack_names").appendChild(listItem);
                 });
             } catch (error) {
                 console.log(error);
