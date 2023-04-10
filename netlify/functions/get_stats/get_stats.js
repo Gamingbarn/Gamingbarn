@@ -9,7 +9,7 @@ const handler = async (event) => {
     try {
         const database = (await clientPromise).db(process.env.MONGODB_DATABASE_DATAPACK);
         const collection = database.collection(process.env.MONGODB_COLLECTION_DATAPACK);
-        const results = await collection.find({}).limit(3).toArray();
+        const results = await collection.find({}).toArray();
         return {
             statusCode: 200,
             body: JSON.stringify(results),
@@ -20,3 +20,4 @@ const handler = async (event) => {
 }
 
 module.exports = { handler }
+// .limit(12)

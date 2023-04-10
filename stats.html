@@ -27,11 +27,30 @@
     <div id="gaming_barn_header"></div>
 
     <main role="main">
-        <section class="grid box margin-bottom" style="margin-top: 0px;">
-            <div class="m-12 l-7 center text-left">
-                <h3>Datapacks</h3>
+        <!-- data/content -->
+        <section class="grid margin">
+            <div class="s-12 l-3 box margin-bottom">
+                <h5>Datapack Name</h5>
                 <hr>
                 <div id="datapack_names"></div>
+                <hr>
+            </div>
+            <div class="s-12 l-3 box margin-bottom">
+                <h5>Datapack ID</h5>
+                <hr>
+                <div id="datapack_ids"></div>
+                <hr>
+            </div>
+            <div class="s-12 l-3 box margin-bottom">
+                <h5>PMC Downloads</h5>
+                <hr>
+                <div id="datapack_pmc_downloads"></div>
+                <hr>
+            </div>
+            <div class="s-12 l-3 box margin-bottom">
+                <h5>Site Downloads</h5>
+                <hr>
+                <div id="datapack_site_downloads"></div>
                 <hr>
             </div>
         </section>
@@ -44,6 +63,21 @@
                     const listItem = document.createElement("p");
                     listItem.innerText = result.datapack_name;
                     document.getElementById("datapack_names").appendChild(listItem);
+                });
+                results.forEach(result => {
+                    const listItem = document.createElement("p");
+                    listItem.innerText = result.datapack_id;
+                    document.getElementById("datapack_ids").appendChild(listItem);
+                });
+                results.forEach(result => {
+                    const listItem = document.createElement("p");
+                    listItem.innerText = result.pmc_downloads;
+                    document.getElementById("datapack_pmc_downloads").appendChild(listItem);
+                });
+                results.forEach(result => {
+                    const listItem = document.createElement("p");
+                    listItem.innerText = result.gb_site_downloads;
+                    document.getElementById("datapack_site_downloads").appendChild(listItem);
                 });
             } catch (error) {
                 console.log(error);
