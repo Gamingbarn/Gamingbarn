@@ -28,13 +28,42 @@
 
     <main role="main">
         <!-- data/content -->
+        <section class="grid margin">
+            <div class="s-12 l-3 box margin-bottom">
+                <h5>Datapack Name</h5>
+                <hr>
+                <div id="datapack_names"></div>
+                <hr>
+            </div>
+            <div class="s-12 l-3 box margin-bottom">
+                <h5>Datapack ID</h5>
+                <hr>
+                <div id="datapack_ids"></div>
+                <hr>
+            </div>
+            <div class="s-12 l-3 box margin-bottom">
+                <h5>PMC Downloads</h5>
+                <hr>
+                <div id="datapack_pmc_downloads"></div>
+                <hr>
+            </div>
+            <div class="s-12 l-3 box margin-bottom">
+                <h5>Site Downloads</h5>
+                <hr>
+                <div id="datapack_site_downloads"></div>
+                <hr>
+            </div>
+        </section>
+
+        <!-- new crap -->
         <section class="grid box margin-bottom" style="margin-top: 0px;">
             <div class="m-12 l-7 center text-center">
                 <table>
-                    <td id="datapack_names">Datapack Name<hr></td>
-                    <td id="datapack_ids">Datapack ID<hr></td>
-                    <td id="datapack_pmc_downloads">PMC Dowmloads<hr></td>
-                    <td id="datapack_site_downloads">Site Downloads<hr></td>
+                    <th id="datapack_names">Datapack Name</th>
+                    <th>Datapack ID</th>
+                    <th>PMC Dowmloads</th>
+                    <th>Site Downloads</th>
+                    <td></td>
                 </table>
             </div>
         </section>
@@ -44,7 +73,7 @@
             try {
                 let results = await fetch("/.netlify/functions/get_stats").then(response => response.json());
                 results.forEach(result => {
-                    const listItem = document.createElement("tr");
+                    const listItem = document.createElement("p");
                     listItem.innerText = result.datapack_name;
                     document.getElementById("datapack_names").appendChild(listItem);
                 });
