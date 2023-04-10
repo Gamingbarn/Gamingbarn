@@ -39,7 +39,7 @@
     <script>
         (async () => {
             try {
-                let results = await fetch("/.netlify/functions/get_movies").then(response => response.json());
+                let results = await fetch("/.netlify/functions/get_stats").then(response => response.json());
                 results.forEach(result => {
                     const listItem = document.createElement("p");
                     listItem.innerText = result.datapack_name;
