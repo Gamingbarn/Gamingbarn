@@ -80,4 +80,9 @@
     background-image: linear-gradient(to top, #00000033, #00000033), url("/img/pmc_logo_high.png");
 }
 
-
+span.command-code{
+    padding: 3px;
+    font-family: monospace;
+    color: rgb(0, 0, 0);
+    background-color: rgb(231, 231, 231);
+}
